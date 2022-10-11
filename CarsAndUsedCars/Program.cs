@@ -5,7 +5,6 @@
         static void Main(string[] args)
         {
             Car c = new Car("Chrysler", "Sebring", 2010, 6500);
-            Console.WriteLine(c);
 
             List<Car> carsInventory = new List<Car>();
             carsInventory.Add(c);
@@ -15,22 +14,29 @@
             carsInventory.Add(new UsedCar("Toyota", "Camry", 2004, 4248, 184562));
             carsInventory.Add(new UsedCar("Jeep", "Wrangler", 2009, 7895, 49785));
 
-            int index = 0;
+            int index = 1;
             foreach (Car car in carsInventory)
             {
-                Console.WriteLine(index + ": " ,car);
+                Console.WriteLine(index + ": " + car);
                 index++;
             }
+            Console.WriteLine("");
             Console.WriteLine("Which car would you like to remove? Please select by index.");
             string input = Console.ReadLine();
             int pick = int.Parse(input);
 
-            carsInventory.RemoveAt(pick);
 
-            index = 0;
+            carsInventory.RemoveAt(pick);
+            Console.WriteLine(carsInventory[pick-1]);
+            Console.WriteLine("");
+            Console.WriteLine("Excellent! We will be in touch with you soon so that you can drive off the lot.");
+            Console.WriteLine("Have a great day!");
+            Console.WriteLine("");
+
+            index = 1;
             foreach (Car car in carsInventory)
             {
-                Console.WriteLine(index + ": ", car);
+                Console.WriteLine(index + ": " + car);
                 index++;
             }
         }
@@ -38,27 +44,6 @@
     }
 }
 /*
-Add a public static method to Car called ListCars that loops through the list and prints out each member and its index in the list. (Hint: Use a regular for loop, not a foreach loop so you  can print out the index.)
-Add a public static method to Car called Remove which takes an integer parameter and removes the car whose index is that parameter
-In your main, print out the list (by calling the ListCar method). Then ask the user which car they would like to buy, by number (the index of the car).
-Print out the details for the chosen car. (Think about how to print out this information: You’ll access the item in the list by index, and call Console.WriteLine.)
-Remove the chosen car from the list
-List all the cars again
-
-Hints:
-Use the right access modifiers (public/private/protected)!
-You can just use \t tab escape characters to line things up, or if you want to get fancier, look up text formatters. 
-
-Extra Challenges:
-Think about other methods which might be useful for your Car such as “BuyBack” where you can add a used car to the list. Implement them and modify your app to take advantage of them. 
-Create an Admin mode which lets the user edit cars.
-Provide search features:
-View all cars of an entered make.
-View all cars of an entered year.
-View all cars of an entered price or less.
-View only used cars or view only new cars.
-
-See next page for Console Preview.
 
 Console Preview
 Your output will vary based on decisions you make with your partner.
