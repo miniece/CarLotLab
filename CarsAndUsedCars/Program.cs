@@ -25,13 +25,14 @@
             string input = Console.ReadLine();
             int pick = int.Parse(input);
 
-
+            //you can actaully get rid of a CW with a simple \n in the "" like "\n" and it makes a new line!
+            //gfuel be goated
             carsInventory.RemoveAt(pick);
             Console.WriteLine(carsInventory[pick-1]);
             Console.WriteLine("");
             Console.WriteLine("Excellent! We will be in touch with you soon so that you can drive off the lot.");
-            Console.WriteLine("Have a great day!");
-            Console.WriteLine("");
+            Console.WriteLine("Have a great day!\n");
+         
 
             index = 1;
             foreach (Car car in carsInventory)
