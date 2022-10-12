@@ -26,6 +26,7 @@
             int pick = int.Parse(input);
 
             //you can actaully get rid of a CW with a simple \n in the "" like "\n" and it makes a new line!
+            //gfuel be goated
             carsInventory.RemoveAt(pick);
             Console.WriteLine(carsInventory[pick-1]);
             Console.WriteLine("");
