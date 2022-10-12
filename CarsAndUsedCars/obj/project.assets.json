@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\xmini\\.nuget\\packages\\": {}
+    "C:\\Users\\Somber\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\xmini\\Documents\\BootcampLabs\\CarsAndUsedCars\\CarsAndUsedCars\\CarsAndUsedCars.csproj",
+      "projectUniqueName": "C:\\Users\\Somber\\source\\repo 3\\minnie lab\\CarLotLab\\CarsAndUsedCars\\CarsAndUsedCars.csproj",
       "projectName": "CarsAndUsedCars",
-      "projectPath": "C:\\Users\\xmini\\Documents\\BootcampLabs\\CarsAndUsedCars\\CarsAndUsedCars\\CarsAndUsedCars.csproj",
-      "packagesPath": "C:\\Users\\xmini\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\xmini\\Documents\\BootcampLabs\\CarsAndUsedCars\\CarsAndUsedCars\\obj\\",
+      "projectPath": "C:\\Users\\Somber\\source\\repo 3\\minnie lab\\CarLotLab\\CarsAndUsedCars\\CarsAndUsedCars.csproj",
+      "packagesPath": "C:\\Users\\Somber\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Somber\\source\\repo 3\\minnie lab\\CarLotLab\\CarsAndUsedCars\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\xmini\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Somber\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
